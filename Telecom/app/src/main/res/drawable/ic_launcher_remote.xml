@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+    <!-- Remote Body -->
+    <path
+        android:fillColor="#2D2D2D"
+        android:pathData="M40,25h28c2.2,0 4,1.8 4,4v50c0,2.2 -1.8,4 -4,4h-28c-2.2,0 -4,-1.8 -4,-4v-50c0,-2.2 1.8,-4 4,-4z" />
+
+    <!-- Power Button -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M54,32m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+
+    <!-- Buttons -->
+    <path
+        android:fillColor="#444444"
+        android:pathData="M44,45h5v5h-5z M59,45h5v5h-5z M44,55h20v5h-20z M44,65h5v5h-5z M51.5,65h5v5h-5z M59,65h5v5h-5z" />
+
+</vector>

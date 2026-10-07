@@ -1,0 +1,15 @@
+# Android Studio and Gradle generated files
+.gradle/
+**/build/
+.idea/
+local.properties
+**/local.properties
+*.iml
+
+# Compiled firmware and Android packages
+*.apk
+*.aab
+*.elf
+*.map
+*.class
+*.dex

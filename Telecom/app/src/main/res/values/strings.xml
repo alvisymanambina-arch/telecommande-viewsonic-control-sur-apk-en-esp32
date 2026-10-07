@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Telecom</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_vol">VOL</string>
+    <string name="btn_ch">CH</string>
+    <string name="brand_name">ViewSonic</string>
+</resources>

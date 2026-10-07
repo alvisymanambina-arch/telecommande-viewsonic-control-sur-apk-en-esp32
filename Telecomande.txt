@@ -1,0 +1,43 @@
+
+Number                 Description                                                 CODE (12 Bits)
+
+
+1                      Power on/off                                                0xC, 0x80C;                        
+2                      Screen capture                                              0x101E, 0x181E;
+3                      [PC¹] Windows button                                        0x13, 0x813;
+4                      Startup writing                                             0x30, 0x830;
+5                      Back to the Embedded player Home Screen                     0x2D,  0x82D;
+6                      Back / Return to previous page                              0xF, 0x80F;
+7                      Increase / Decrease volume                                  Increase volume(0x10,0x810;) / Decrease volume(0x11;0x811;)
+8                      Numeric Keypad                                              0x0; 0x1; 0x02; 0x03; 0x4; 0x5; 0x06; 0x7; 0x08; 0x09
+9                      Information                                                 0x12, 0x812;
+10                     Input source selection                                      0x28, 0x828;
+11
+                      Media control buttons:
+ ͫ                     Red - Play / Pause                                           0x32; 
+ ͫ                     Green - Stop                                                 0x33;  
+ ͫ                     Yellow - Forwards                                            0x34;
+ ͫ                     Blue - Backwards                                             0x35;                                            
+12                    [PC¹] Menu button                                            0x2F, 0x82F;
+13                    [PC¹] Exit dialog box                                        0x14, 0x814;
+14                    Settings menu                                                0x2E, 0x82E;
+15                    Up / Down / Left / Right OK                                  Up(0x1C;) / Down(0x1D;) / Left(0x2C;) / Right(0x2B ) / OK(0xA;) 
+16                    Freeze screen                                                0x101F, 0x181F;
+17                    Mute / Unmute                                                0xD, 0x80D;
+18                    Increase / Decrease Brightness                              Increase(0x20;) / Decrease Brightness(0x21;)  
+19                    Blank screen                                                0x26, 0x826;
+20                    Adjust Aspect Ratio                                         0x103E, 0x183E;
+
+
+
+
+2. Fanitsiana ny "Circuit" miaraka amin'ny Transistor (Soso-kevitra tsara indrindra)
+Koa efa nampiasa transistor ianao, hamarino tsara raha ohatra an'ity ny fomba nampifandraisanao azy (Circuit mampiasa 2N2222 na BC547):
+•
+Transistor Collector (Tongotra 1): Ampifandraiso amin'ny 5V (Vin).
+•
+Transistor Base (Tongotra 2 - afovoany): Ampifandraiso amin'ny GPIO 4 an'ny ESP32 (mampiasà resistor 220 ohm na 330 ohm eo anelanelany mba hiarovana ny ESP32).
+•
+Transistor Emitter (Tongotra 3): Ampifandraiso amin'ny LED IR (Anode/Tongotra lava).
+•
+LED IR (Cathode/Tongotra fohy): Ampifandraiso amin'ny GND (mampiasà resistor kely dia kely ohatra 10 ohm na 22 ohm fotsiny mba hampitomboana ny hazavana).
